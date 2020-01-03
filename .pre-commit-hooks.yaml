@@ -1,0 +1,6 @@
+- id: npm-postinstall
+  entry: echo
+  name: 'Fail on postinstall'
+  language: node
+  additional_dependencies:
+    - "core-js-pure@3.6.2"
